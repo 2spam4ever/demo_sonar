@@ -1,0 +1,20 @@
+{
+  "sources": [],
+  "sanitizers": [
+    {
+      "methodId": "wpdb::prepare",
+      "interval": {
+        "fromIndex": 0
+      }
+    }
+  ],
+  "passthroughs": [],
+  "sinks": [
+    {
+      "methodId": "wpdb::query",
+      "interval": {
+        "fromIndex": 0
+      }
+    }
+  ]
+}
